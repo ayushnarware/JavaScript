@@ -16,6 +16,18 @@ const markCommit = (x, y) => {
   const data = {
     date: date,
   };
+  // name ayush
+
+
+
+
+
+
+
+
+
+
+  
 
   jsonfile.writeFile(path, data, () => {
     simpleGit().add([path]).commit(date, { "--date": date }).push();
